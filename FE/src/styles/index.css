@@ -1,0 +1,87 @@
+/* 
+This file contains the CSS styles for the application, defining the overall look and feel. 
+*/
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background: #e8491d;
+    transition: background 0.3s;
+}
+
+.form-input {
+    margin: 10px 0;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #e8491d;
+    transition: background 0.3s;
+}
